@@ -1,70 +1,67 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Aleksandra
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Strzelec
+  about: "Jestem zafascynowana światem programistycznym i chcę stać się jego częścią. Staram się aktywnie
+   uczestniczyć w społeczności IT, uczęszczając na meet'upy takie jak WarsawJs.
+   Brałam również udział w warsztatach języka Python Pyladies 2016, Javascript Programuj Dziewczyno! a także WarsawJs Workshop #13 Vue.
+   Aktualnie jestem w trakcie nauki frameworka Vue.js"
+position: Junior Frontend Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1993
+  location: Polska
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: Dealavo
+  position: Technical Support Specialist
+  timeperiod: 01.2017 - 11.2017
+  descriptionone: "- Tworzenie i utrzymywanie konfiguracji narzędzi zbierających dane sklepów internetowych,
+    z użyciem języka zapytań xpath i wyrażeń regularnych."
+  descriptiontwo: "- Personalizowanie kont klientów."
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Dealavo
+  position: Quality Assurance
+  timeperiod: 07.2015 - 12.2016
+  descriptionone: "- Weryfikowanie poprawności zbieranych automatycznie danych."
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Coders Lab
+  timeperiod: 11.2017 - 01.2018
+  description: Kurs Frontend Developer React
+  coursedes: "- 320h intensywnego kursu programowania ze szczególnym naciskiem na opanowanie języka JavaScript wraz z frameworkiem React.
+        Poznanie różnych technologii i narzędzi pracy programisty."
+- degree: Uniwersytet Technologiczno-Humanistyczny w Radomiu
+  timeperiod: 10.2012 - 06.2016
+  description: Wzornictwo, specjalizacja projektowanie obuwia
 
 # skill level goes 0 to 100
 skills:
+- name: JavaScript
+  level: 99
 - name: HTML5
   level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
+- name: React.js
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: CSS3
+  level: 99
+- name: ECMAScript 6
+  level: 99
+- name: Sass
+  level: 99
+- name: JQuery
+  level: 99
+- name: Git
+  level: 99
+knowledge:
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: alestrzelec@gmail.com
+  phone: Contact me
+  city: Warszawa
+  website: https://www.linkedin.com/in/aleksandra-strzelec-frontend/
+  github: bottle93
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: pl
 `
